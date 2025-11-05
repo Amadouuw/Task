@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+
+h1 {
+    color: #333;
+}
+
+
+#entre1 {
+    padding: 5px;
+    width: 200px;
+}
+
+
+#Valider {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+
+#liste {
+    margin-top: 20px;
+}
+
+
+#liste p {
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+
+.bouton-modifier {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 2px 5px;
+    margin-left: 5px;
+}
+
+.bouton-supprimer {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 2px 5px;
+    margin-left: 5px;
+}

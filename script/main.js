@@ -55,20 +55,20 @@ boutonValider.addEventListener("click", () => {
 
   // quand on clique sur ce bouton on supprime element complet
   boutonSuppr.onclick = () => {
-    // on retire le paragraphe de la liste (div #liste)
+    // on retire le paragraphe de la liste div #liste
     liste.removeChild(item);
   };
 
   // on assemble les element
 
-  // on ajoute le bouton "Modifier" à côté du texte
+  // on ajoute le bouton "Modifier" a cote du texte
   item.appendChild(boutonModif);
 
   // on ajoute ensuite le bouton "Supprimer"
   item.appendChild(boutonSuppr);
 
-  // on ajoute enfin le paragraphe complet (texte + boutons)
-  // à l’intérieur du conteneur principal (#liste)
+  // on ajoute enfin le paragraphe complet texte et bouton
+  // a l’interieur du conteneur principal #liste
   liste.appendChild(item);
   // on vide le champ de texte pour permettre une nouvelle entree
   input.value = "";
